@@ -1,0 +1,115 @@
+.body{
+    padding: 0;
+    margin: 0;
+  }
+  .vertical-text{
+    writing-mode: vertical-lr;
+    transform: rotate(180 deg);
+    font-family: Arial;
+    margin: 15px 0 0 15px;
+    font-size: 54px;
+    font-weight: 600;
+    color:#bbb;
+  }
+  .wrapper{
+    display: flex;
+    gap:0px;
+    background-color: #FFFAF0;
+    height: 370px;
+    width:100%;
+  }
+  .intro{
+    width:50%;
+    padding-top: 20px;
+  }
+  .buttons {
+      display: flex;
+  }
+  .buttons .btn {
+      background-color: #ff6600;
+      color: #fff;
+      text-decoration: none;
+    padding: 5px 5px;
+      border-radius: 5px;
+      margin-right: 10px;
+      display: inline-block;
+  }
+  .buttons .btm{
+      background-color: white;
+      color: orange;
+      text-decoration: none;
+    padding: 5px 5px;
+      border-radius: 5px;
+      margin-right: 10px;
+      display: inline-block;
+    border: 1px solid orange;
+  }
+  .profile-picture img {
+      width: 220px;
+      height: 370px;
+  }
+  section {
+      padding: 60px 0;
+      text-align: center;
+  }
+  .about{
+    background-color: #fffaf0;
+    border: none;
+    margin-top: 50px;
+    align-items: center;
+    position:relative;
+    background-size: contain;
+    background-attachment:fixed;
+    font-family: Arial;
+    font-weight:normal;
+    height: 250px;
+    width:500px;
+    
+  }
+  .personal-info {
+      list-style: none;
+      text-align: left;
+      margin: 0 auto;
+      max-width:400px;
+    display: flex;
+    gap:20px;
+  }
+  .skills{
+      padding: 50px 20px;
+      text-align: center;
+  }
+  
+  .skills-grid {
+      display: flex;
+      justify-content: space-around;
+  }
+  
+  .skill{
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 200px;
+   width:23%;
+    background-color:white;
+    padding-top: 20px;
+    margin:0px;
+  }
+  .resume-grid{
+    display: flex;
+    margin-top: 0px;
+  }
+  .education {
+    width:48%;
+    height: 480px;
+    margin-left:20px;
+    background-color: white;
+    padding-top: 7px;
+  }
+  .experience{
+     width:48%;
+    height: 480px;
+    margin-left:20px;
+    background-color: white;
+    padding-top: 10px;
+  }
+  .container{
+    padding-top:30px 20px;
+  }
